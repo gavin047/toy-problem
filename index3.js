@@ -22,10 +22,14 @@ function calculateNetSalary(basicSalary, benefits, taxRate, nhifRate, nssfRate) 
   let nssfRate = 0.05;  
     
   let result = calculateNetSalary(basicSalary, benefits, taxRate, nhifRate, nssfRate);  
-    
+     // calculating gross salary
   console.log(`Gross Salary: ${result.grossSalary}`);  
+     //calculating taxpayee
   console.log(`Payee Tax: ${result.payeeTax}`);  
+     // calculating NHIF deductions.
   console.log(`NHIF Deductions: ${result.nhifDeductions}`);  
+     // calculating NSSF deductions
   console.log(`NSSF Deductions: ${result.nssfDeductions}`);  
+      //calculating net salary
   console.log(`Net Salary: ${result.netSalary}`);  
   
